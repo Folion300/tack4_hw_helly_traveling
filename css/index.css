@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css?family=Play:400,700|Righteous');
+
+:root {
+    font-family: 'Play', sans-serif;
+    --main-font-color: black;
+    --secondary-font-color: white;
+}
+
+body {
+    max-width: 980px;
+    margin: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+header nav .logo {
+    font-family: 'Righteous', cursive;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+header nav .menu {
+    display: flex;
+}
+
+header nav .menu {
+    padding: 0;
+    justify-content: space-around;
+}
+
+header nav .menu li {
+    list-style-type: none;
+}
+
+header nav .menu a {
+    text-decoration: none;
+    color: var(--main-font-color);
+    text-transform: uppercase;
+}
+
+header nav .menu a:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 500px) {
+    header nav {
+        display: flex;
+    }
+
+    header nav .menu {
+        flex: 1;
+    }
+}
+
+header .banner {
+    background-image: url(../img/istanbul.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 245px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header .banner h1 {
+    color: var(--secondary-font-color);
+    font-size: 2.5rem;
+}
+
+h2 {
+    text-align: center;
+}
+
+.travel_card {
+    text-align: left;
+}
+
+h4 {
+    color: grey;
+}
+
+.travel_card img {
+    display: block;
+    width: 100%;
+}
+
+.travel_card .button_container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.travel_list {
+    display: grid;
+    grid-gap: 5px;
+}
+
+@media (min-width: 490px) {
+    .travel_list {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 735px) {
+    .travel_list {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 980px) {
+    .travel_list {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+
+.button {
+    padding: 5px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+}
+
+.button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+.btn-default {
+    color: blue;
+}
+
+#past_trips {
+    margin: 10px 1px 20px 1px;
+}
+
+.past_travel_card img {
+    display: flex;
+    width: 35%;
+}
+
+
+
+#help {
+    margin: 10px 1px 20px 1px;
+}
+
+#mountain {
+    width: 600px;
+    height: auto;
+}
+
+#shark {
+    width: 600px;
+    height: auto;
+}
+
+#ukraine {
+    width: 600px;
+    height: auto;
+}
+
+#hostel {
+    width: 600px;
+    height: auto;
+}
+
+
+#contact {
+    margin: 10px 1px 20px 1px;
+}
+
+#icon_facebook {
+    width: 60px;
+    height: auto;
+}
+
+#icon_instagram {
+    width: 60px;
+    height: auto;
+}
+
+#icon_telegram {
+    width: 60px;
+    height: auto;
+}
+
+#icon_twitter {
+    width: 60px;
+    height: auto;
+}
+
+#icon_youtube {
+    width: 60px;
+    height: auto;
+}
+
+form {
+    font-size: 20px;
+}
+
+footer {
+    color: grey;
+}
+
+.welcome {
+    min-height: 300px;
+    margin: 5px 0 5px 0;
+}
+
+.together {
+    float: left;
+    margin: 0 5px 0 0;
+    height: 300px;
+    display: grid;
+    grid-gap: 5px;
+}
+
+.welcome_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media (min-width: 660px) {
+    .welcome {
+        grid-template-columns: 1fr;
+    }
+}
