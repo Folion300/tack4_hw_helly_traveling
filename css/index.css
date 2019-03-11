@@ -5,19 +5,12 @@
     --main-font-color: black;
     --secondary-font-color: white;
 }
-
 body {
     max-width: 980px;
     margin: auto;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
+h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
 
@@ -54,9 +47,9 @@ header nav .menu a:hover {
     header nav {
         display: flex;
     }
-
+    
     header nav .menu {
-        flex: 1;
+        flex: 1;    
     }
 }
 
@@ -75,15 +68,12 @@ header .banner h1 {
     color: var(--secondary-font-color);
     font-size: 2.5rem;
 }
-
 h2 {
     text-align: center;
 }
-
 .travel_card {
     text-align: left;
 }
-
 h4 {
     color: grey;
 }
@@ -99,8 +89,8 @@ h4 {
 }
 
 .travel_list {
-    display: grid;
-    grid-gap: 5px;
+        display: grid;
+        grid-gap: 5px;
 }
 
 @media (min-width: 490px) {
@@ -129,12 +119,11 @@ h4 {
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
-    -webkit-transition-duration: 0.4s;
-    /* Safari */
+    -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     cursor: pointer;
-    background-color: white;
-    color: black;
+    background-color: white; 
+    color: black; 
     border: 2px solid #4CAF50;
 }
 
@@ -147,11 +136,9 @@ h4 {
 .btn-default {
     color: blue;
 }
-
 #past_trips {
-    margin: 10px 1px 20px 1px;
+	margin: 10px 1px 20px 1px;
 }
-
 .past_travel_card img {
     display: flex;
     width: 35%;
@@ -160,72 +147,59 @@ h4 {
 
 
 #help {
-    margin: 10px 1px 20px 1px;
+	margin: 10px 1px 20px 1px;
 }
-
 #mountain {
-    width: 600px;
-    height: auto;
+	width: 600px;
+	height: auto;
 }
-
 #shark {
-    width: 600px;
-    height: auto;
+	width: 600px;
+	height: auto;
 }
-
 #ukraine {
-    width: 600px;
-    height: auto;
+	width: 600px;
+	height: auto;
 }
-
 #hostel {
-    width: 600px;
-    height: auto;
+	width: 600px;
+	height: auto;
 }
 
 
 #contact {
-    margin: 10px 1px 20px 1px;
+	margin: 10px 1px 20px 1px;
 }
-
 #icon_facebook {
-    width: 60px;
-    height: auto;
+	width: 60px;
+	height: auto;
 }
-
 #icon_instagram {
-    width: 60px;
-    height: auto;
+	width: 60px;
+	height: auto;
 }
-
 #icon_telegram {
-    width: 60px;
-    height: auto;
+	width: 60px;
+	height: auto;
 }
-
 #icon_twitter {
-    width: 60px;
-    height: auto;
+	width: 60px;
+	height: auto;
 }
-
 #icon_youtube {
-    width: 60px;
-    height: auto;
+	width: 60px;
+	height: auto;
 }
-
 form {
-    font-size: 20px;
+	font-size: 20px;
 }
-
 footer {
     color: grey;
 }
-
 .welcome {
     min-height: 300px;
     margin: 5px 0 5px 0;
 }
-
 .together {
     float: left;
     margin: 0 5px 0 0;
@@ -233,14 +207,12 @@ footer {
     display: grid;
     grid-gap: 5px;
 }
-
 .welcome_text {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
-
 @media (min-width: 660px) {
     .welcome {
         grid-template-columns: 1fr;
